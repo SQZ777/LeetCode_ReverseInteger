@@ -37,7 +37,12 @@ namespace LeetCode_ReverseInteger
             Assert.AreEqual(1, Solution.FirstMissingPositive(new int[] { -2, -3, 5, 6 }));
         }
 
-        
+        [TestMethod]
+        public void Input_1n2n3n4_Should_Be_5()
+        {
+            Assert.AreEqual(5, Solution.FirstMissingPositive(new int[] { 1, 2, 3, 4 }));
+        }
+
     }
 
     public class Solution
