@@ -7,8 +7,17 @@ namespace LeetCode_ReverseInteger
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Input_null_Should_Be_1()
         {
+            Assert.AreEqual(1,Solution.FirstMissingPositive(new int[]{}));
+        }
+    }
+
+    public class Solution
+    {
+        public static int FirstMissingPositive(int[] nums)
+        {
+            throw new NotImplementedException();
         }
     }
 }
