@@ -43,6 +43,11 @@ namespace LeetCode_ReverseInteger
             Assert.AreEqual(5, Solution.FirstMissingPositive(new int[] { 1, 2, 3, 4 }));
         }
 
+        [TestMethod]
+        public void Input_1n6n5()
+        {
+            Assert.AreEqual(2, Solution.FirstMissingPositive(new int[] { 1, 6, 5 }));}
+
     }
 
     public class Solution
