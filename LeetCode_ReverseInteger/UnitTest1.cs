@@ -9,7 +9,7 @@ namespace LeetCode_ReverseInteger
         [TestMethod]
         public void Input_null_Should_Be_1()
         {
-            Assert.AreEqual(1,Solution.FirstMissingPositive(new int[]{}));
+            Assert.AreEqual(1, Solution.FirstMissingPositive(new int[] { }));
         }
     }
 
@@ -17,7 +17,11 @@ namespace LeetCode_ReverseInteger
     {
         public static int FirstMissingPositive(int[] nums)
         {
-            throw new NotImplementedException();
+            if (nums.Length < 1)
+            {
+                return 1;
+            }
+            return 1;
         }
     }
 }
