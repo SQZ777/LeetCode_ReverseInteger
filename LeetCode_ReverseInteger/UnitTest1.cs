@@ -35,7 +35,7 @@ namespace LeetCode_ReverseInteger
             {
                 return 1;
             }
-            return 1;
+            return nums[0] + 1;
         }
     }
 }
